@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NextGreater",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.NextGreater",
+            "projectName": "java_9b28a794"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TreeRange",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.TreeRange",
+            "projectName": "java_9b28a794"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - nextGreater",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.nextGreater",
+            "projectName": "java_9b28a794"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Vacation",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.Vacation",
+            "projectName": "java_9b28a794"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinArea",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.MinArea",
+            "projectName": "java_9b28a794"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - OOD",
             "request": "launch",
             "mainClass": "OOD",
