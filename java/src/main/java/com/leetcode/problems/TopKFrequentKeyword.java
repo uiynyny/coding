@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 
 // "static void main" must be defined in a public class.
-public class Main {
+public class TopKFrequentKeyword {
     public static void main(String[] args) {
         int k1 = 2;
         String[] keywords1 = { "anacell", "cetracular", "betacellular" };
@@ -19,8 +19,8 @@ public class Main {
         String[] reviews2 = { "I love anacell Best services; Best services provided by anacell",
                 "betacellular has great services", "deltacellular provides much better services than betacellular",
                 "cetracular is worse than anacell", "Betacellular is better than deltacellular.", };
-        System.out.println(solve(k1, keywords1, reviews1));
-        System.out.println(solve(k2, keywords2, reviews2));
+        List<String> solve1 = solve(k1, keywords1, reviews1);
+        List<String> solve2 = solve(k2, keywords2, reviews2);
     }
 
     private static List<String> solve(int k, String[] keywords, String[] reviews) {
