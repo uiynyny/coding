@@ -1,9 +1,5 @@
 package com.leetcode.problems;
-// you can also use imports, for example:
-// import java.util.*;
 
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
 
 class NextGreater {
     public int solution(int N) {

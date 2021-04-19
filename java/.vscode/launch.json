@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AlternatingBit",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.AlternatingBit",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CriticalConnection",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.CriticalConnection",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CycleinGraph",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.CycleinGraph",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdditionGame",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.AdditionGame",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestSubstringwithNRepeatingChar",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.LongestSubstringwithNRepeatingChar",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EggDrop",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.EggDrop",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestValidParenthese",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.LongestValidParenthese",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeIntervals",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.MergeIntervals",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKthLargest",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.FindKthLargest",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValidAnagram",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.ValidAnagram",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsomorphicString",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.IsomorphicString",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasicCalculator3",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.BasicCalculator3",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReversePolishNotation",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.ReversePolishNotation",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseWord",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.ReverseWord",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PokerGame",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.PokerGame",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BoardGame",
+            "request": "launch",
+            "mainClass": "com.leetcode.problems.BoardGame",
+            "projectName": "coding"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NextGreater",
             "request": "launch",
             "mainClass": "com.leetcode.problems.NextGreater",

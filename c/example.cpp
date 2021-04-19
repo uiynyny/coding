@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int solve(std::vector<int> &A)
+int alienEncode(std::vector<int> &A)
 {
     int up = 0, down = 0, violation = 0;
     for (int i = 1; i < A.size(); ++i)

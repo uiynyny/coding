@@ -1,4 +1,4 @@
-package com.leetcode.problems.Util;
+package com.leetcode.problems.util;
 
 public class ListNode<T> {
     public T value;
@@ -10,10 +10,7 @@ public class ListNode<T> {
 
     @Override
     public String toString() {
-        String nvalue=next==null? "" :next.value.toString();
-        return "ListNode{" +
-                "value=" + value +
-                ", next=" + nvalue +
-                '}';
+        String nvalue = next == null ? "" : next.value.toString();
+        return "ListNode{" + "value=" + value + ", next=" + nvalue + '}';
     }
 }

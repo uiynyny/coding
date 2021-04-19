@@ -1,9 +1,9 @@
 package com.leetcode.problems;
 
-import com.leetcode.problems.Util.ListNode;
-
 import java.util.Arrays;
 import java.util.List;
+
+import com.leetcode.problems.util.ListNode;
 
 class IsListPalindrome {
     // Singly-linked lists are already defined with this interface:

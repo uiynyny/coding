@@ -1,9 +1,9 @@
 package com.leetcode.problems;
 
-import com.leetcode.problems.Util.ListNode;
-
 import java.util.Arrays;
 import java.util.List;
+
+import com.leetcode.problems.util.ListNode;
 
 public class AddTwoHugeNumbers {
     public static void main(String[] args) {

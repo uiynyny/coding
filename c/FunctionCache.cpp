@@ -7,14 +7,13 @@ class FunctionCache
     class Parameters
     {
     public:
+        int first;
+        int second;
         Parameters(int first, int second)
         {
             this->first = first;
             this->second = second;
         }
-
-        int first;
-        int second;
     };
 
 public:
