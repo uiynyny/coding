@@ -11,7 +11,7 @@ public class MergeIntervals {
         test.add(new int[]{8,10});
         test.add(new int[]{15,18});
         
-        var c= o.merge(test);
+        o.merge(test);
     }
 
     public List<int[]> merge(List<int[]> intervals) {

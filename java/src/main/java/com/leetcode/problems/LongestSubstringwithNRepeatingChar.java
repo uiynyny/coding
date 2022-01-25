@@ -2,6 +2,7 @@ package com.leetcode.problems;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class LongestSubstringwithNRepeatingChar {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class LongestSubstringwithNRepeatingChar {
         // return ans;
     }
 
-   
+
     private int longestSubstring(String s, int k) {
         // char -> int
         HashMap<Character, Integer> count = new HashMap<>();
@@ -28,7 +29,7 @@ public class LongestSubstringwithNRepeatingChar {
 
         // count char appear less than k
         HashSet<Character> lessThanK = new HashSet<>();
-        for (var c : count.entrySet()) {
+        for (Map.Entry<Character, Integer> c : count.entrySet()) {
             if (c.getValue() < k) {
                 lessThanK.add(c.getKey());
             }

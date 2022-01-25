@@ -50,10 +50,14 @@ public class myHashMap {
         for (int i = 0; i < qt.length; i++) {
 
             switch (qt[i]) {
-                case "insert" -> insert(q[i]);
-                case "get" -> ans += get(q[i]);
-                case "addToKey" -> addToKey(q[i]);
-                case "addToValue" -> addToValue(q[i]);
+                case "insert":
+                    insert(q[i]);
+                case "get":
+                    ans += get(q[i]);
+                case "addToKey":
+                    addToKey(q[i]);
+                case "addToValue":
+                    addToValue(q[i]);
             }
         }
         return ans;

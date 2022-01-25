@@ -12,7 +12,8 @@ public class AlmostTetris {
         int acc = 0;
         for (int f : figure) {
             int[][] s = shape(f, ++acc);
-            l:for (int i = 0; i < m; i++)
+            l:
+            for (int i = 0; i < m; i++)
                 for (int j = 0; j < n; j++) {
                     if (fit(g, s, i, j)) {
                         put(g, s, i, j);
@@ -23,10 +24,10 @@ public class AlmostTetris {
         return g;
     }
 
-    void put(int[][] g, int[][] s,int r, int c){
-        for(int i=0;i<s.length;i++){
-            for(int j=0;j<s[i].length;j++){
-                g[r+i][c+j]|=s[i][j];
+    void put(int[][] g, int[][] s, int r, int c) {
+        for (int i = 0; i < s.length; i++) {
+            for (int j = 0; j < s[i].length; j++) {
+                g[r + i][c + j] |= s[i][j];
             }
         }
     }
@@ -43,13 +44,19 @@ public class AlmostTetris {
     }
 
     int[][] shape(int i, int n) {
-        return switch (i) {
-            case 1 -> new int[][]{{n}};
-            case 2 -> new int[][]{{n, n, n}};
-            case 3 -> new int[][]{{n, n}, {n, n}};
-            case 4 -> new int[][]{{n, 0}, {n, n}, {n, 0}};
-            case 5 -> new int[][]{{0, n, 0}, {n, n, n}};
-            default -> null;
-        };
+        switch (i) {
+            case 1:
+                return new int[][]{{n}};
+            case 2:
+                return new int[][]{{n, n, n}};
+            case 3:
+                return new int[][]{{n, n}, {n, n}};
+            case 4:
+                return new int[][]{{n, 0}, {n, n}, {n, 0}};
+            case 5:
+                return new int[][]{{0, n, 0}, {n, n, n}};
+            default:
+                return null;
+        }
     }
 }
