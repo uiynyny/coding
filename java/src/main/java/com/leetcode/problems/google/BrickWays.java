@@ -20,7 +20,7 @@ public class BrickWays {
             }
         }
         for (int i = 1; i < dp.length; i++) {
-            for (int j = 1; j <= dp[i].length; j++) {
+            for (int j = 1; j <= w; j++) {
                 int temp = 0;
                 for (int k = 0; k * bricks[i] <= j; k++) {
                     temp += dp[i - 1][j - k * bricks[i]];
