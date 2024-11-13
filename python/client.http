@@ -1,0 +1,2 @@
+GET https://www.redfin.ca/stingray/api/gis?al=3&include_nearby_homes=true&market=ontario&num_homes=350&ord=price-desc&page_number=1&poly=-75.7677 45.26976,-75.6795 45.26976,-75.6795 45.29361,-75.7677 45.29361,-75.7677 45.26976&region_id=2187&region_type=33&sold_within_days=180&start=0&status=9&uipt=1,2,3&v=8&zoomLevel=15
+Cookie:RF_PARTY_ID=56670127; RF_AUTH=cc3e205201e109705b91479ff8a9ea06a13bf7c7; RF_W_AUTH=cc3e205201e109705b91479ff8a9ea06a13bf7c7; RF_SECURE_AUTH=3b9233e04fcfc5a2eb36ffbcdf611333f3018547;RF_MARKET=ontario;
