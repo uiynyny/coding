@@ -30,11 +30,11 @@ def is_palindrome(string: str) -> bool:
     Keep in mind when making any modifications that the restrictions from lab 3
     still apply to this function, this means that you cannot use any loops,
     "if" statements, or anything that was disallowed in the previous lab.
+    abcdcba
+      ij
     """
-    print(string)
     string = string.lower().strip()
-    return string == string[::-1]
-    
+    return string == string[::-1]    
 
 def is_palindrome_string(string: str) -> bool:
     """
@@ -77,12 +77,11 @@ def is_palindrome_string(string: str) -> bool:
     first_letter_of_each_word ='' 
     for word in cleaned_string.split():
         first_letter_of_each_word = first_letter_of_each_word + word[0]
-    
-    
     return is_palindrome(first_letter_of_each_word)
 
-print(f"debug is_palindrome_string(abc;def): {is_palindrome_string("abc;def")}" )
-print(f"debug is_palindrome_string(test string test): {is_palindrome_string("test string test")}" )
+print(is_palindrome_string(";1235415T s t !"))
+print(is_palindrome_string("abc;def"))
+print(is_palindrome_string("     test string test"))
 
 def reverse_sentence(s: str) -> str:
     """
@@ -133,5 +132,5 @@ def reverse_sentence(s: str) -> str:
     return result
 
 
-print(reverse_sentence('ATest string!'))
-print(reverse_sentence('another String'))
+#print(reverse_sentence('ATest string!'))
+#print(reverse_sentence('another String'))
