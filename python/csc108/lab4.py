@@ -30,11 +30,10 @@ def is_palindrome(string: str) -> bool:
     Keep in mind when making any modifications that the restrictions from lab 3
     still apply to this function, this means that you cannot use any loops,
     "if" statements, or anything that was disallowed in the previous lab.
-    abcdcba
-      ij
     """
-    string = string.lower().strip()
-    return string == string[::-1]    
+    cleaned_string = string.replace(" ", "").lower().strip()
+    return cleaned_string == cleaned_string[::-1]
+
 
 def is_palindrome_string(string: str) -> bool:
     """
@@ -67,10 +66,10 @@ def is_palindrome_string(string: str) -> bool:
     #clean up string 
     cleaned_string=""
     for char in string:
-        if not char.isalpha():
-            cleaned_string += ' '
+        if char.isalpha():          #char.isspace()
+            cleaned_string += char      #cleaned_string+=''
         else:
-            cleaned_string += char
+            cleaned_string += ' '      #cleaned_string+=char
    
     # split string into substrings
     # get first letter of each substring
@@ -79,9 +78,7 @@ def is_palindrome_string(string: str) -> bool:
         first_letter_of_each_word = first_letter_of_each_word + word[0]
     return is_palindrome(first_letter_of_each_word)
 
-print(is_palindrome_string(";1235415T s t !"))
-print(is_palindrome_string("abc;def"))
-print(is_palindrome_string("     test string test"))
+print(is_palindrome_string('B1!@#A'))
 
 def reverse_sentence(s: str) -> str:
     """
